@@ -8,8 +8,7 @@
 	<string>com.googleusercontent.apps.140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f</string>
 	<key>ANDROID_CLIENT_ID</key>
 	<string>140729895728-2b8p1d33ui3ejkj7ar11aaheussg2044.apps.googleusercontent.com</string>
-	<key>API_KEY</key>
-	<string>AIzaSyDunIaEvpHtO27mz_0z9NVxksk97X8p-RA</string>
+
 	<key>GCM_SENDER_ID</key>
 	<string>140729895728</string>
 	<key>PLIST_VERSION</key>

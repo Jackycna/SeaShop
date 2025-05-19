@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDhplSHxNRQ9nfplBSbng5wSGMKztoHROY',
+    apiKey: '',
     appId: '1:140729895728:android:ee0c130ef1976d8ba216f5',
     messagingSenderId: '140729895728',
     projectId: 'sea-shop',
@@ -50,19 +50,21 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDunIaEvpHtO27mz_0z9NVxksk97X8p-RA',
+    apiKey: '',
     appId: '1:140729895728:ios:3fb47541737ffd64a216f5',
     messagingSenderId: '140729895728',
     projectId: 'sea-shop',
     databaseURL: 'https://sea-shop-default-rtdb.firebaseio.com',
     storageBucket: 'sea-shop.appspot.com',
-    androidClientId: '140729895728-2b8p1d33ui3ejkj7ar11aaheussg2044.apps.googleusercontent.com',
-    iosClientId: '140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com',
+    androidClientId:
+        '140729895728-2b8p1d33ui3ejkj7ar11aaheussg2044.apps.googleusercontent.com',
+    iosClientId:
+        '140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com',
     iosBundleId: 'com.example.seaShop',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA58z2uu3v1rPSWrNxpO5CsCMuC5_GqWHA',
+    apiKey: '',
     appId: '1:140729895728:web:fba341546eb3f4a5a216f5',
     messagingSenderId: '140729895728',
     projectId: 'sea-shop',
@@ -72,19 +74,21 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDunIaEvpHtO27mz_0z9NVxksk97X8p-RA',
+    apiKey: '',
     appId: '1:140729895728:ios:3fb47541737ffd64a216f5',
     messagingSenderId: '140729895728',
     projectId: 'sea-shop',
     databaseURL: 'https://sea-shop-default-rtdb.firebaseio.com',
     storageBucket: 'sea-shop.appspot.com',
-    androidClientId: '140729895728-2b8p1d33ui3ejkj7ar11aaheussg2044.apps.googleusercontent.com',
-    iosClientId: '140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com',
+    androidClientId:
+        '140729895728-2b8p1d33ui3ejkj7ar11aaheussg2044.apps.googleusercontent.com',
+    iosClientId:
+        '140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com',
     iosBundleId: 'com.example.seaShop',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA58z2uu3v1rPSWrNxpO5CsCMuC5_GqWHA',
+    apiKey: '',
     appId: '1:140729895728:web:4fef7b5121924cc1a216f5',
     messagingSenderId: '140729895728',
     projectId: 'sea-shop',
@@ -92,5 +96,4 @@ class DefaultFirebaseOptions {
     databaseURL: 'https://sea-shop-default-rtdb.firebaseio.com',
     storageBucket: 'sea-shop.appspot.com',
   );
-
 }
