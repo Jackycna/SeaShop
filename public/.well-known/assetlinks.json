@@ -1,0 +1,39 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.sea_de",
+      "sha256_cert_fingerprints": [
+        "D8:46:4C:95:98:E3:AB:BF:70:C9:67:EA:2A:3E:03:B0:91:A3:DC:BC:4F:8F:90:6D:7D:FF:E5:E1:5C:09:4B:82"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.sea_house",
+      "sha256_cert_fingerprints": [
+        "D8:46:4C:95:98:E3:AB:BF:70:C9:67:EA:2A:3E:03:B0:91:A3:DC:BC:4F:8F:90:6D:7D:FF:E5:E1:5C:09:4B:82"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "seashop.web.app",
+      "sha256_cert_fingerprints": [
+        "D8:46:4C:95:98:E3:AB:BF:70:C9:67:EA:2A:3E:03:B0:91:A3:DC:BC:4F:8F:90:6D:7D:FF:E5:E1:5C:09:4B:82",
+        "17:0A:8B:06:66:C1:60:DD:E8:66:91:48:3E:E4:6B:E0:13:AE:76:7D:66:F1:7F:0D:BD:DC:C0:50:47:65:A2:D7"
+      ]
+    }
+  }
+]

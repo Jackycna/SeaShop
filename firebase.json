@@ -1,0 +1,75 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sea-shop",
+          "appId": "1:140729895728:android:ee0c130ef1976d8ba216f5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "sea-shop",
+          "appId": "1:140729895728:ios:3fb47541737ffd64a216f5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sea-shop",
+          "configurations": {
+            "android": "1:140729895728:android:ee0c130ef1976d8ba216f5",
+            "ios": "1:140729895728:ios:3fb47541737ffd64a216f5",
+            "macos": "1:140729895728:ios:3fb47541737ffd64a216f5",
+            "web": "1:140729895728:web:fba341546eb3f4a5a216f5",
+            "windows": "1:140729895728:web:4fef7b5121924cc1a216f5"
+          }
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "sea-shop",
+          "appId": "1:140729895728:ios:3fb47541737ffd64a216f5",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/delete",
+        "destination": "/ooo.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    
+      
+    ]
+      
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

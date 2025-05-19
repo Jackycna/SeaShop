@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "140729895728",
+    "firebase_url": "https://sea-shop-default-rtdb.firebaseio.com",
+    "project_id": "sea-shop",
+    "storage_bucket": "sea-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140729895728:android:09ce336848dc8fbca216f5",
+        "android_client_info": {
+          "package_name": "seaorders.web.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140729895728-soi6ckbosgsbmvjvetnkgpp3jg7mllpq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "seaorders.web.app",
+            "certificate_hash": "6c718445c0b31a3f24f562c897b8c2d611ac03b3"
+          }
+        },
+        {
+          "client_id": "140729895728-k9am611opec98kuf0c0fh0c9blkp37ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhplSHxNRQ9nfplBSbng5wSGMKztoHROY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140729895728-k9am611opec98kuf0c0fh0c9blkp37ci.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seaShop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140729895728:android:ee0c130ef1976d8ba216f5",
+        "android_client_info": {
+          "package_name": "seashop.web.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140729895728-gteih8dp6hsglr8k06vc48upqap7vfgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "seashop.web.app",
+            "certificate_hash": "cf1598ea280349ef0393c2d5526170b6c44ca113"
+          }
+        },
+        {
+          "client_id": "140729895728-r9divhjg74r2nkslflu3osc8qgl1afsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "seashop.web.app",
+            "certificate_hash": "6c718445c0b31a3f24f562c897b8c2d611ac03b3"
+          }
+        },
+        {
+          "client_id": "140729895728-k9am611opec98kuf0c0fh0c9blkp37ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhplSHxNRQ9nfplBSbng5wSGMKztoHROY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140729895728-k9am611opec98kuf0c0fh0c9blkp37ci.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seaShop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140729895728:android:35c879e9ec50af46a216f5",
+        "android_client_info": {
+          "package_name": "seastore.web.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140729895728-133f93pp393ef3io5v0fq9mv8jog880s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "seastore.web.app",
+            "certificate_hash": "6c718445c0b31a3f24f562c897b8c2d611ac03b3"
+          }
+        },
+        {
+          "client_id": "140729895728-k9am611opec98kuf0c0fh0c9blkp37ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhplSHxNRQ9nfplBSbng5wSGMKztoHROY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140729895728-k9am611opec98kuf0c0fh0c9blkp37ci.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "140729895728-kod0k253bbcmbsfibfmougtb3mpc4o6f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.seaShop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

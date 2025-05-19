@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete User Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .delete-btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+    <!-- Add Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+</head>
+<body>
+
+    <h1>Delete User Data from Firestore</h1>
+    <p>Click the button below to delete your data.</p>
+
+    <button class="delete-btn" onclick="confirmAndDeleteUserData()">Delete My Data</button>
+
+    <script>
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyA58z2uu3v1rPSWrNxpO5CsCMuC5_GqWHA",
+            authDomain: "sea-shop.firebaseapp.com",
+            projectId: "sea-shop",
+            storageBucket: "sea-shop.appspot.com",
+            messagingSenderId: "140729895728", // Only needed if using FCM
+            appId: "1:140729895728:android:ee0c130ef1976d8ba216f5"
+        };
+
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth();
+        const db = firebase.firestore(app);
+
+        // Function to confirm deletion and delete data from Firestore
+        async function confirmAndDeleteUserData() {
+            const user = auth.currentUser; // Get the current logged-in user
+
+            if (!user) {
+                alert("You must be logged in to delete your data.");
+                return;
+            }
+
+            const userConfirmed = confirm("Are you sure you want to delete your data?");
+            
+            if (userConfirmed) {
+                try {
+                    const userId = user.uid; // Use the authenticated user's ID
+
+                    // Delete user data from Firestore
+                    await db.collection("users").doc(userId).delete();
+
+                    // Optionally, delete the user from Firebase Authentication (if you want to delete the user account)
+                    await user.delete();
+
+                    alert("Your data has been successfully deleted.");
+                    
+                    // Optional: Redirect to another page after deletion
+                    // window.location.href = "/home";
+                } catch (error) {
+                    console.error("Error deleting user data: ", error);
+                    alert("Failed to delete your data. Please try again.");
+                }
+            } else {
+                alert("Data deletion canceled.");
+            }
+        }
+    </script>
+
+</body>
+</html>
