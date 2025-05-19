@@ -20,8 +20,7 @@ class _MapPickerPageState extends State<MapPickerPage> {
   Set<Marker> _markers = {};
   List<AutocompletePrediction> predictions = [];
   final TextEditingController _searchController = TextEditingController();
-  final googlePlace = GooglePlace(
-      "AIzaSyApo_S_3M7xDCzgddlyLFtn8lQULF2XXQs"); // Replace with your API key
+  final googlePlace = GooglePlace(""); // Replace with your API key
   late LatLng _selectedLocation;
   bool isLoading = false; // Track loading state
 
